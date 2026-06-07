@@ -7,7 +7,7 @@ import heroPic from "@/assets/pic_145532.jpg.asset.json";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Peacock's Crest Resort, Satara" },
+      { title: "Contact — Peacock's Crest Resort" },
       { name: "description", content: "Reach Peacock's Crest Resort. Call, WhatsApp or send an enquiry." },
       { property: "og:title", content: "Contact · Peacock's Crest" },
       { property: "og:description", content: "Reach us by phone, WhatsApp or enquiry form." },

@@ -7,10 +7,10 @@ import heroPic from "@/assets/pic_144944.jpg.asset.json";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Peacock's Crest Resort, Satara" },
-      { name: "description", content: "The story of Peacock's Crest Resort — a serene escape near Kanher Dam, Satara." },
+      { title: "About — Peacock's Crest Resort" },
+      { name: "description", content: "The story of Peacock's Crest Resort — a serene escape near Kanher Dam." },
       { property: "og:title", content: "About · Peacock's Crest Resort" },
-      { property: "og:description", content: "A serene escape near Kanher Dam, Satara." },
+      { property: "og:description", content: "A serene escape near Kanher Dam." },
       { property: "og:image", content: gateway.url },
     ],
   }),
